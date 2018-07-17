@@ -5,7 +5,8 @@ use Math::Cartesian::Product;
 use List::Util qw/shuffle/;
 
 my $major = $ARGV[0];
-my $minor = $ARGV[1]; my $spread = $ARGV[2];
+my $minor = $ARGV[1]; 
+my $spread = $ARGV[2];
 
 open MajorFH, "<", $major or die;
 open MinorFH, "<", $minor or die;
