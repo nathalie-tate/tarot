@@ -6,6 +6,10 @@ Custom tarot decks and spreads are supported.
 Currently implemented in Perl, but I plan on implementing it in other languages
 as a learning exercise.
 
+## Dependencies
+
+Requires `Math::Cartesian::Product` and `List::Util`
+
 ## Running
 
 See [here](https://github.com/nathalie-tate/tarot/tree/master/perl)
