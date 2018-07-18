@@ -35,6 +35,4 @@ Chalices`, `1 of Wands`, `2 of Wands`, and `3 of Wands`.
 ## Defining Spreads
 
 Spreads are defined by rectangular matrices, where cards are represented by two
-digits (ex: `01`, `02`) and spaces are represented by two periods (`..`). Cards
-should be separated by at least one space (`..`). Failing to do so may lead to
-undefined behavior.
+digits (ex: `01`, `02`) and spaces are represented by two periods (`..`).
