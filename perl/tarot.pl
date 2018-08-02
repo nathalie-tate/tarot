@@ -1,7 +1,6 @@
 #!/usr/bin/perl
 use strict;
 use warnings;
-use Math::Cartesian::Product;
 use List::Util qw/shuffle/;
 
 my $major = $ARGV[0];
@@ -30,7 +29,13 @@ chomp for @spread;
 
 my @deck;
 
-cartesian{push @deck, "$_[0] of $_[1]" } [@minor], [@suits];
+for my $m (@minor)
+{
+  for my $s (@suits)
+  {
+    push @deck, "$m of $s";
+  }
+}
 
 @deck = (@deck, @major);
 @deck = shuffle(@deck);
