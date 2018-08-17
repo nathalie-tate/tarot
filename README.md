@@ -3,12 +3,10 @@
 This project contains scripts that draw tarot cards and place them into spreads.
 Custom tarot decks and spreads are supported. 
 
-Currently implemented in Perl, but I plan on implementing it in other languages
-as a learning exercise.
-
 ## Running
 
-See [here](https://github.com/nathalie-tate/tarot/tree/master/perl)
+[Perl](https://github.com/nathalie-tate/tarot/tree/master/perl)
+[Ruby](https://github.com/nathalie-tate/tarot/tree/master/ruby)
 
 ## Defining Major Arcana
 
