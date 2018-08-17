@@ -58,7 +58,7 @@ sub printRow
   for my $i (0..16)
   {
     my $cardNum = @cards;
-    for my $slot(0..@slots)
+    for my $slot(0..@slots-1)
     {
       if($slots[$slot] and $slots[$slot] =~ /\d\d/)
       {
